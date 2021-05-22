@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="110dp"
+        android:layout_height="41dp"
+        android:text=""
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="103dp"
+        android:layout_height="26dp"
+        android:text=""
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/num3"
+        android:layout_width="103dp"
+        android:layout_height="26dp"
+        android:text=""
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/intentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+
+    <Button
+        android:id="@+id/btngenerar"
+        android:layout_width="168dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="292dp"
+        android:text="Generar"
+        app:layout_constraintBottom_toBottomOf="@+id/resultado"
+        tools:layout_editor_absoluteX="-2dp" />
+</LinearLayout>
